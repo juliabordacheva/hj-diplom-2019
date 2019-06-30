@@ -1,6 +1,4 @@
 // веб сокеты и взаимодействие с сервером
-// work with server
-// WebSocket conect
 
 const addCommentInDirectory = (comment, directory) => {
   directory[comment.id] = {

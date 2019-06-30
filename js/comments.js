@@ -1,7 +1,6 @@
-//файл comments.js выполняет задачи: создание форм комментариев и отправки сообщения на сервер. Связан с solution.js и server.js 
+//создание форм комментариев 
 
-// Create and reneder comments
-//определение время когда был сделан комментарий
+//определяет время когда был сделан комментарий
 const getDate = (timestamp) => {
   const date = new Date(timestamp);
   const options = {

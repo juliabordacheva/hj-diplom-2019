@@ -1,7 +1,4 @@
 'use strict'
-// создания логики и расположение переменных, и их взаимодействие с овсеми файлами проекта
-// constant task
-
 const [wrapApp] = document.getElementsByClassName('app'),
   [menu] = wrapApp.getElementsByClassName('menu'),
   [burgerBtn] = menu.getElementsByClassName('burger'),
@@ -33,7 +30,7 @@ const urlApi = '//neto-api.herokuapp.com/pic',
   ctx = canvas.getContext('2d');
 
 
-// Application launch
+
 
 // запуск приложения
 const showElement = (el) => {
@@ -184,7 +181,7 @@ menu.addEventListener('click', selectMenuMode);
 
 
 //  Copy link in mode "Поделиться"
-// копирование содержимого инпута, при клике на кнопку copy 
+
 const checkSelectionResult = () => {
   try {
     const done = document.execCommand('copy');

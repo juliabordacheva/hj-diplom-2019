@@ -1,4 +1,3 @@
-// drawing отвечает за вес функционал связанный с рисованием
 // drawing in canvas 
 
 const penWidth = 4;
@@ -61,7 +60,7 @@ const mouseMove = (event) => {
   }
 };
 
-// прекратить рисовании при отпускании копки мыши
+// прекратить рисование при отпускании копки мыши
 const mouseUp = (event) => {
   if (drawBtn.dataset.state === 'selected') {
     isDrawing = false;

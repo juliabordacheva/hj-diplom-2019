@@ -1,5 +1,3 @@
-// drag and drop позволяет, перетаскивать меню
-
 // ~~~~~~ Drag'n'Drop меню ~~~~~~
 
 
@@ -19,7 +17,6 @@ const throttle = (cb) => {
 
 // menu moving
 
-// возможность "зажимания" меню, для последующего перемещения
 const putMenu = (event) => {
   if (event.which !== 1) { 
     return; 
